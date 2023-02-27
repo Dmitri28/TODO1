@@ -1,0 +1,11 @@
+﻿@page
+@model TODOS.Pages.MyHomeModel
+@{
+    ViewData["Title"] = "My HomeWork";
+}
+<form method="post">
+     <input type="text" name="Message" />
+     <input type="submit" value="Input"/>
+</form>
+   
+<h1>Text: @Model.info.Message</h1>

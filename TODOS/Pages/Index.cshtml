@@ -1,0 +1,38 @@
+﻿@page
+
+@{
+    ViewData["Title"] = "My Web";
+}
+
+<div class="text-center">
+    <h1 class="display-4">TODOS</h1>
+    
+   
+    
+    <form method="post">
+        
+     <input type="text" name="Message" required="required" />
+    
+        @{
+            Info info = new Info();
+                 <input type="submit" value="Delete" asp::buttonClick></input>
+                  <input type ="submit" value="Save" asp::buttonClick></input>
+            if (info.Message != "")
+            {
+              
+            }
+            else
+            {
+           
+            }
+   
+   }
+  
+   
+   
+     
+</form>
+
+
+</div>
+
